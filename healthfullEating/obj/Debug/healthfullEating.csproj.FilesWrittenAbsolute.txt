@@ -1,0 +1,17 @@
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/Microsoft.Web.Infrastructure.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/EntityFramework.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/EntityFramework.SqlServer.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/ModernHttpClient.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.Razor.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.Helpers.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.WebPages.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.WebPages.Deployment.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.WebPages.Razor.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.Mvc.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/Newtonsoft.Json.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Net.Http.Formatting.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.Http.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Web.Http.WebHost.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Net.Http.Primitives.dll
+/Users/kimberlylewis/Projects/healthfullEating/healthfullEating/bin/System.Net.Http.Extensions.dll
