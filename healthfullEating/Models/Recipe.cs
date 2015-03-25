@@ -27,6 +27,7 @@ namespace healthfullEating
         public virtual ICollection<PanDry> PanDrys { get; set; }
         public virtual ICollection<PanFresh> PanFreshes { get; set; }
         public virtual ICollection<RecQuickOverview> RecQuickOverviews { get; set; }
+        public virtual ICollection<Spice> Spices { get; set; }
 
 		public Recipe(string RecipeName, string RecipeDesc, int Cook, int Prep, int Act, int Untend, int Total, int Serve)
 		{

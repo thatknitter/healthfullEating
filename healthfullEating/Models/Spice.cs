@@ -12,9 +12,14 @@ namespace healthfullEating
 		public string SpicePrep { get; set; }
 		public string SpiceSpecial { get; set; }
 
-		public Spice ()
+        public virtual Recipe Recipe { get; set; }
+
+		public Spice(string Name, string Amount, string Prep, string Special)
 		{
-			
+            this.SpiceName = Name;
+            this.SpiceAmt = Amount;
+            this.SpicePrep = Prep;
+            this.SpiceSpecial = Special;
 		}
 	}
 
