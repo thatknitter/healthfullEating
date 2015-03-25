@@ -9,9 +9,11 @@ namespace healthfullEating
 		public int RecipeID { get; set; }
 		public string QuickOver { get; set; }
 
-		public RecQuickOverview ()
+        public virtual Recipe Recipe { get; set; }
+
+		public RecQuickOverview (string Overview)
 		{
-			
+            this.QuickOver = Overview;
 		}
 
 	}
