@@ -10,9 +10,12 @@ namespace healthfullEating
 		public string FHName { get; set; }
 		public string FHUrl { get; set; }
 
-		public FHLesson ()
+        public virtual Recipe Recipe { get; set; }
+
+		public FHLesson (string Name, string URL)
 		{
-			
+            this.FHName = Name;
+            this.FHUrl = URL;
 		}
 	}
 

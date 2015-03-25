@@ -19,6 +19,8 @@ namespace healthfullEating
 		public int Servings { get; set; }
 
         public virtual ICollection<FreshIng> FreshIngs { get; set; }
+        public virtual ICollection<CSLesson> CSLessons { get; set; }
+        public virtual ICollection<FHLesson> FHLessons { get; set; }
 
 		public Recipe(string RecipeName, string RecipeDesc, int Cook, int Prep, int Act, int Untend, int Total, int Serve)
 		{

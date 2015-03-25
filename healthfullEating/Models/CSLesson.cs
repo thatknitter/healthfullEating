@@ -10,9 +10,12 @@ namespace healthfullEating
 		public string CSName { get; set; }
 		public string CSUrl { get; set; }
 
-		public CSLesson ()
+        public virtual Recipe Recipe { get; set; }
+
+		public CSLesson (string Name, string URL)
 		{
-			
+            this.CSName = Name;
+            this.CSUrl = URL;
 		}
 	}
 
