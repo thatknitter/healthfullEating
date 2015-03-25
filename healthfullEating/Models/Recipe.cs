@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.Entity;
+using System.Collections.Generic;
 
 
 
@@ -17,9 +18,18 @@ namespace healthfullEating
 		public int TotalTime { get; set; }
 		public int Servings { get; set; }
 
-		public Recipe ()
+        public virtual ICollection<FreshIng> FreshIngs { get; set; }
+
+		public Recipe(string RecipeName, string RecipeDesc, int Cook, int Prep, int Act, int Untend, int Total, int Serve)
 		{
-			
+            this.Name = RecipeName;
+            this.Description = RecipeDesc;
+            this.CookTime = Cook;
+            this.PrepTime = Prep;
+            this.ActiveCookTime = Act;
+            this.UnattendedCookTime = Untend;
+            this.TotalTime = Total;
+            this.Servings = Serve;
 
 
 		}

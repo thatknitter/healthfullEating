@@ -33,9 +33,15 @@ namespace TestHFE
         [TestMethod]
         public void TestAddToDatabase()
         {
-            Assert.AreEqual(0, repo.GetCount);
-            repo.Add(new Recipe("PB&J"));
-            Assert.AreEqual(1, repo.GetCount);
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new Recipe("pb&j", "foo", 4, 2, 8, 6, 10, 4));
+            Assert.AreEqual(1, repo.GetCount());
+        }
+
+        [TestMethod]
+        public void TestFreshIngAddToDB()
+        {
+            
         }
     }
 }

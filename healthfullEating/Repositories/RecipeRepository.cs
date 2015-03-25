@@ -42,9 +42,9 @@ namespace healthfullEating
             return query.First<Recipe>();
 		}
 
-        public void Add(Recipe E)
+        public void Add(Recipe name)
         {
-            _dbContext.Recipes.Add(E);
+            _dbContext.Recipes.Add(name);
             _dbContext.SaveChanges();
         }
 
