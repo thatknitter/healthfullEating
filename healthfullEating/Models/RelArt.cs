@@ -10,9 +10,12 @@ namespace healthfullEating
 		public string RelName { get; set; }
 		public string RelUrl { get; set; }
 
-		public RelArt ()
+        public virtual Recipe Recipe { get; set; }
+
+		public RelArt (string Name, string URL)
 		{
-			
+            this.RelName = Name;
+            this.RelUrl = URL;
 		}
 	}
 
