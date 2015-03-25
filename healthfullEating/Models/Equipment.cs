@@ -9,9 +9,11 @@ namespace healthfullEating
 		public int RecipeID { get; set; }
 		public string Equip { get; set; }
 
-		public Equipment ()
+        public virtual Recipe Recipe { get; set; }
+
+		public Equipment (string Item)
 		{
-			
+            this.Equip = Item;
 		}
 	}
 

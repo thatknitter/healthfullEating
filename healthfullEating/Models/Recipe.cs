@@ -23,6 +23,7 @@ namespace healthfullEating
         public virtual ICollection<FHLesson> FHLessons { get; set; }
         public virtual ICollection<RelArt> RelArts { get; set; }
         public virtual ICollection<Direction> Directions { get; set; }
+        public virtual ICollection<Equipment> Equipments { get; set; }
 
 		public Recipe(string RecipeName, string RecipeDesc, int Cook, int Prep, int Act, int Untend, int Total, int Serve)
 		{
