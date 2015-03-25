@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "healthfullEating", "healthfullEating\healthfullEating.csproj", "{95077F7C-761D-4AD1-ABF2-11F66E4197B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testHealthFullEating", "TestHealthfullEating\testHealthFullEating.csproj", "{A2952109-C91D-4167-9B42-B55152FF6F4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95077F7C-761D-4AD1-ABF2-11F66E4197B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95077F7C-761D-4AD1-ABF2-11F66E4197B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95077F7C-761D-4AD1-ABF2-11F66E4197B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95077F7C-761D-4AD1-ABF2-11F66E4197B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2952109-C91D-4167-9B42-B55152FF6F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2952109-C91D-4167-9B42-B55152FF6F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2952109-C91D-4167-9B42-B55152FF6F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2952109-C91D-4167-9B42-B55152FF6F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

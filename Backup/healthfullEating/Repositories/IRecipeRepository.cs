@@ -2,8 +2,6 @@
 using healthfullEating;
 using System.Linq.Expressions;
 using System.Linq;
-using System.Collections.Generic;
-
 
 namespace healthfullEating 
 {
@@ -15,7 +13,6 @@ namespace healthfullEating
 		void Delete(Recipe E);
 		void Clear();
 		IQueryable<Recipe> SearchFor(Expression<Func<Recipe, bool>> predicate);
-        int GetCount();
-        IEnumerable<Recipe> All();
+
 	}
 }
