@@ -101,5 +101,21 @@ namespace TestHFE
             repo.Add(new RecQuickOverview("foo"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestRelArtAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new RelArt("foo", "bar"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
+
+        [TestMethod]
+        public void TestSpiceAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new Spice("PB", "2 tbsp", "foo", "bar"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
     }
 }

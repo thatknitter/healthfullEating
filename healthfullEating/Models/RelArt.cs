@@ -18,10 +18,5 @@ namespace healthfullEating
             this.RelUrl = URL;
 		}
 	}
-
-	public class RecipeDBContext : DbContext
-	{
-		public DbSet<Recipe> Recipes { get; set; }
-	}
 }
 

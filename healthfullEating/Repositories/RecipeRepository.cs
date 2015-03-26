@@ -97,6 +97,18 @@ namespace healthfullEating
             _dbContext.SaveChanges();
         }
 
+        public void Add(RelArt article)
+        {
+            _dbContext.RelArts.Add(article);
+            _dbContext.SaveChanges();
+        }
+
+        public void Add(Spice herb)
+        {
+            _dbContext.Spices.Add(herb);
+            _dbContext.SaveChanges();
+        }
+
         public void Delete(Recipe E)
         {
             throw new NotImplementedException();

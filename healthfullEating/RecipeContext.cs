@@ -23,6 +23,8 @@ namespace healthfullEating
         public DbSet<Equipment> Equipments { get; set; }
         public DbSet<FHLesson> FHLessons { get; set; }
         public DbSet<RecQuickOverview> RecQuickOverviews { get; set; }
+        public DbSet<RelArt> RelArts { get; set; }
+        public DbSet<Spice> Spices { get; set; }
 	}
 }
 
