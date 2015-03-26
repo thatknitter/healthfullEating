@@ -43,6 +43,14 @@ namespace healthfullEating
             return query.First<Recipe>();
 		}
 
+        public Recipe GetByName(string name)
+        {
+            var query = from Recipe in _dbContext.Recipes
+                        where Recipe.Name == name
+                        select Recipe;
+            return query.First<Recipe>();
+        }
+
         public void Add(Recipe name)
         {
             _dbContext.Recipes.Add(name);

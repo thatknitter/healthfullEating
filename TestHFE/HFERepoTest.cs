@@ -117,5 +117,13 @@ namespace TestHFE
             repo.Add(new Spice("PB", "2 tbsp", "foo", "bar"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestClear()
+        {
+            repo.Add(new Recipe("pb&j", "foo", 4, 2, 8, 6, 10, 4));
+            repo.Clear();
+            Assert.AreEqual(0, repo.GetCount());
+        }
     }
 }
