@@ -22,6 +22,7 @@ namespace healthfullEating
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Equipment> Equipments { get; set; }
         public DbSet<FHLesson> FHLessons { get; set; }
+        public DbSet<RecQuickOverview> RecQuickOverviews { get; set; }
 	}
 }
 

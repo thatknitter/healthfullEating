@@ -91,6 +91,12 @@ namespace healthfullEating
             _dbContext.SaveChanges();
         }
 
+        public void Add(RecQuickOverview quick)
+        {
+            _dbContext.RecQuickOverviews.Add(quick);
+            _dbContext.SaveChanges();
+        }
+
         public void Delete(Recipe E)
         {
             throw new NotImplementedException();

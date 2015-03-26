@@ -93,5 +93,13 @@ namespace TestHFE
             repo.Add(new FHLesson("foo", "bar"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestQuicOverviewAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new RecQuickOverview("foo"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
     }
 }
