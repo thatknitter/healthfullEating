@@ -67,6 +67,18 @@ namespace healthfullEating
             _dbContext.SaveChanges();
         }
 
+        public void Add(CSLesson cs)
+        {
+            _dbContext.CSLessons.Add(cs);
+            _dbContext.SaveChanges();
+        }
+
+        public void Add(Direction info)
+        {
+            _dbContext.Directions.Add(info);
+            _dbContext.SaveChanges();
+        }
+
         public void Delete(Recipe E)
         {
             throw new NotImplementedException();

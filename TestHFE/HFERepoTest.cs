@@ -69,5 +69,13 @@ namespace TestHFE
             repo.Add(new CSLesson("foo", "bar"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestDirectionsAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new Direction("foo"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
     }
 }

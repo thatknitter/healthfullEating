@@ -18,6 +18,8 @@ namespace healthfullEating
         public DbSet<FreshIng> FreshIngs { get; set; }
         public DbSet<PanFresh> PanFreshs { get; set; }
         public DbSet<PanDry> PanDrys { get; set; }
+        public DbSet<CSLesson> CSLessons { get; set; }
+        public DbSet<Direction> Directions { get; set; }
 	}
 }
 

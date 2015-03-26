@@ -16,10 +16,5 @@ namespace healthfullEating
             this.Info = Dir;
 		}
 	}
-
-	public class RecipeDBContext : DbContext
-	{
-		public DbSet<Recipe> Recipes { get; set; }
-	}
 }
 
