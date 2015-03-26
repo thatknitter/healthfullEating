@@ -22,10 +22,5 @@ namespace healthfullEating
             this.FreshSpecial = Special;
 		}
 	}
-
-	public class RecipeDBContext : DbContext
-	{
-		public DbSet<Recipe> Recipes { get; set; }
-	}
 }
 

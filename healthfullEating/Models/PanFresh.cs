@@ -24,9 +24,5 @@ namespace healthfullEating
 		}
 	}
 
-	public class RecipeDBContext : DbContext
-	{
-		public DbSet<Recipe> Recipes { get; set; }
-	}
 }
 

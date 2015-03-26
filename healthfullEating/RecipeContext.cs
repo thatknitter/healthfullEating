@@ -15,6 +15,9 @@ namespace healthfullEating
 		}
 
 		public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<FreshIng> FreshIngs { get; set; }
+        public DbSet<PanFresh> PanFreshs { get; set; }
+        public DbSet<PanDry> PanDrys { get; set; }
 	}
 }
 

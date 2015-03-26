@@ -39,7 +39,7 @@ namespace healthfullEating
             this.UnattendedCookTime = Untend;
             this.TotalTime = Total;
             this.Servings = Serve;
-
+             
 
 		}
 	}

@@ -26,6 +26,7 @@ namespace healthfullEating
 		public DbSet<Recipe> GetDbSet()
 		{
 			return _dbContext.Recipes;
+            
 		}
 
         public int GetCount()
@@ -45,6 +46,24 @@ namespace healthfullEating
         public void Add(Recipe name)
         {
             _dbContext.Recipes.Add(name);
+            _dbContext.SaveChanges();
+        }
+
+        public void Add(FreshIng fresh)
+        {
+            _dbContext.FreshIngs.Add(fresh);
+            _dbContext.SaveChanges();
+        }
+
+        public void Add(PanFresh pantry)
+        {
+            _dbContext.PanFreshs.Add(pantry);
+            _dbContext.SaveChanges();
+        }
+
+        public void Add(PanDry dry)
+        {
+            _dbContext.PanDrys.Add(dry);
             _dbContext.SaveChanges();
         }
 

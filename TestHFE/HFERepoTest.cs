@@ -41,7 +41,33 @@ namespace TestHFE
         [TestMethod]
         public void TestFreshIngAddToDB()
         {
-            
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new FreshIng("PB", "2 tbsp", "crunchy", "foo"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
+
+        [TestMethod]
+        public void TestPanFreshAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new PanFresh("Pb", "2 tbsp", "crunchy", "foo"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
+
+        [TestMethod]
+        public void TestPanDryAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new PanDry("Pb", "2 tbsp", "crunchy", "foo"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
+
+        [TestMethod]
+        public void TestCSLessonAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new CSLesson("foo", "bar"));
+            Assert.AreEqual(1, repo.GetCount());
         }
     }
 }
