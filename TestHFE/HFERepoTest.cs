@@ -85,5 +85,13 @@ namespace TestHFE
             repo.Add(new Equipment("bar"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestFHLessonAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new FHLesson("foo", "bar"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
     }
 }

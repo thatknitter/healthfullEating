@@ -21,6 +21,7 @@ namespace healthfullEating
         public DbSet<CSLesson> CSLessons { get; set; }
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Equipment> Equipments { get; set; }
+        public DbSet<FHLesson> FHLessons { get; set; }
 	}
 }
 
