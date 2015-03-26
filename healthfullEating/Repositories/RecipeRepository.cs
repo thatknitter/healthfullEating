@@ -79,6 +79,12 @@ namespace healthfullEating
             _dbContext.SaveChanges();
         }
 
+        public void Add(Equipment item)
+        {
+            _dbContext.Equipments.Add(item);
+            _dbContext.SaveChanges();
+        }
+
         public void Delete(Recipe E)
         {
             throw new NotImplementedException();

@@ -20,6 +20,7 @@ namespace healthfullEating
         public DbSet<PanDry> PanDrys { get; set; }
         public DbSet<CSLesson> CSLessons { get; set; }
         public DbSet<Direction> Directions { get; set; }
+        public DbSet<Equipment> Equipments { get; set; }
 	}
 }
 

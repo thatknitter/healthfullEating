@@ -16,10 +16,5 @@ namespace healthfullEating
             this.Equip = Item;
 		}
 	}
-
-	public class RecipeDBContext : DbContext
-	{
-		public DbSet<Recipe> Recipes { get; set; }
-	}
 }
 

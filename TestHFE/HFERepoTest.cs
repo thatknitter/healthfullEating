@@ -77,5 +77,13 @@ namespace TestHFE
             repo.Add(new Direction("foo"));
             Assert.AreEqual(1, repo.GetCount());
         }
+
+        [TestMethod]
+        public void TestEquipmentAddToDB()
+        {
+            Assert.AreEqual(0, repo.GetCount());
+            repo.Add(new Equipment("bar"));
+            Assert.AreEqual(1, repo.GetCount());
+        }
     }
 }
